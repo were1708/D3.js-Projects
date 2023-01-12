@@ -1,0 +1,29 @@
+html,
+body { height: 100%;
+}
+.parent {
+display: flex;
+align-items: left;
+justify-content: center;
+}
+/* tries to allign the graph */
+
+.axis--x path {
+    display: none;
+  }
+
+  .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+  }
+  
+  .grid line {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+  }
+  
+  .grid path {
+    stroke-width: 0;
+  }

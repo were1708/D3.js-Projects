@@ -1,0 +1,20 @@
+body{
+    background-color: #E6E6E6;
+}
+
+p{
+    text-indent: 40px;
+}
+
+/*Add .axis path and .axis line commands as described in the book */
+.axis path,
+.axis line {
+
+    shape-rendering: crispEdges;
+}
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}
